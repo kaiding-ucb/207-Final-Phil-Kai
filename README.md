@@ -1,10 +1,17 @@
 # Forest Classification With Random Forest and Neural Network
 
-The project is based on a popular Kaggle competition. 
+By Phil Gagnon, Kai Ding\
+Date: Apr 15, 2023
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project is based on a popular Kaggle competition, to predict 7 forest cover types from cartograpgic variables\
+The training set includes 15,120 observations and 54 features/columns. The project will include these main sections\ 
+in the Jupyter notebook:\
+* EDA to identify feature engineering opportunities
+* Introduce baseline models including 
+focus on Random Forest and\ Neural Network to drive optimal performance through feature selection/engineering and hyperparameter tuning. \
+The project will use a series of baseline models to serve as performance benchmark. The main sections of the Jupyter\
 
 ## Getting Started
 
