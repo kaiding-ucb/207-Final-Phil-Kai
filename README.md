@@ -17,7 +17,7 @@
 ### Description
 
 #### About the project
-This project is based on a **<a href="https://www.kaggle.com/c/forest-cover-type-prediction" target="_blank">Kaggle competition</a>**, to predict 7 forest cover types from cartograpgic variables, including numeric, binary, and categorical variables. The data set includes 15,120 observations and 54 features/columns. 
+This project is the final project for UC Berkeley 207 Applied Machine Learning. It is based on a **<a href="https://www.kaggle.com/c/forest-cover-type-prediction" target="_blank">Kaggle competition</a>**, to predict 7 forest cover types from cartograpgic variables, including numeric, binary, and categorical variables. The data set includes 15,120 observations and 54 features/columns. 
 
 #### Repo Files
 - `Phil_Kai_EDAv5_added_comments.ipynb`: This is the final jupyter notebook
