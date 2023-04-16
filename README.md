@@ -1,48 +1,85 @@
 # Forest Classification With Random Forest and Neural Network
-
 By Phil Gagnon, Kai Ding\
 Date: Apr 15, 2023
+----
 
-## Description
+### Table Of Contents:
+- [Description](#description)<br>
+    - [About the project](#about-the-project)<br>
+    - [Data files](#data-files)<br>
+- [Running Project](#running-project)<br>
+    - [Requirements](#requirements)<br>
+    - [Execution](#execution)<br>
+- [Highlights](#lhighlight)<br>
+    - [Requirements](#requirements)<br>
+    - [Execution](#execution)<br>
+- [Conclusion](#conclusion)<br>
+    - [What I learned](#what-i-learned)<br>
+    - [Evaluation](#evaluation)
+    - [Results](#results)
 
-This project is based on a popular Kaggle competition, to predict 7 forest cover types from cartograpgic variables\
-The training set includes 15,120 observations and 54 features/columns. The project will include these main sections\ 
-in the Jupyter notebook:\
-* EDA to identify feature engineering opportunities
-* Introduce baseline models including 
-focus on Random Forest and\ Neural Network to drive optimal performance through feature selection/engineering and hyperparameter tuning. \
-The project will use a series of baseline models to serve as performance benchmark. The main sections of the Jupyter\
+----
 
-## Getting Started
+### Description
 
-### Dependencies
+#### About the project
+This project is based on a popular Kaggle competition, to predict 7 forest cover types from cartograpgic variables. The data set includes 15,120 observations and 54 features/columns.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+#### Data Files
+- `Phil_Kai_EDAv5_added_comments.ipynb`: This is the final jupyter notebook
+- `forestcover.csv`: The forest cover-type dataset. 
+- `Final Presentation.pdf` : PDF version of final presentation for highlights and key findings.
 
-### Installing
+----
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### Running Project
 
-### Executing program
+#### Requirements
 
-* How to run the program
-* Step-by-step bullets
+This project requires **Python 3.11** and the following Python libraries installed:
+
+- [Python 3.11.3](https://www.python.org/downloads)                          (Coding Language)
+- [NumPy](http://www.numpy.org/)                                            (For Scientific Computing)
+- [Pandas](http://pandas.pydata.org)                                        (For Data Analysis)
+- [matplotlib](http://matplotlib.org/)                                      (For Visualization)   
+- [seaborn](https://seaborn.pydata.org/installing.html)                     (For Visualization)
+- [scikit-learn](http://scikit-learn.org/stable/)                           (ML Library for Python)
+- [tensorflow](http://tensorflow.org/install/)                              (Deep Learning Library)
+
+#### Execution
+
+In a terminal or command window, navigate to the top-level project directory `Forest_Cover-Type` (that contains this README) and run one of the following commands:
+
+```bash
+ipython notebook Phil_Kai_EDAv5_added_comments.ipynb
+```  
+or
+```bash
+jupyter notebook Phil_Kai_EDAv5_added_comments.ipynb
 ```
-code blocks for commands
+or if you have 'Jupyter Lab' installed
+```bash
+jupyter lab
 ```
 
-## Help
+-----
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### Conclusion
 
-## Authors
+#### What I learned
+- How to research and investigate a real-world problem of interest.
+- How to accurately apply specific machine learning algorithms and techniques.
+- How to properly analyze and visualize your data and results for validity.
+- How to document and write a report of your work.
 
-Contributors names and contact info
+#### Evaluation
+My `Proposal` was reviewed by an Udacity reviewer against the **<a href="https://review.udacity.com/#!/rubrics/410/view" target="_blank">Capstone Proposal rubric</a>**. All criteria found in the rubric must be *meeting specifications* for me to pass.
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+My `Project` was reviewed by an Udacity reviewer against the **<a href="https://review.udacity.com/#!/rubrics/108/view" target="_blank">Capstone Project Rubric</a>**. All criteria found in the rubric must be *meeting specifications* for me to pass.
+
+#### Results
+[My Proposal Review by an Udacity Reviewer](https://review.udacity.com/#!/reviews/1419617)
+
+[My Project Review by an Udacity Reviewer](https://review.udacity.com/#!/reviews/1435956)
+
+----
