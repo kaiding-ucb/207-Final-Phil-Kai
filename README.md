@@ -6,7 +6,7 @@ Date: Apr 15, 2023
 ### Table Of Contents:
 - [Description](#description)<br>
     - [About the project](#about-the-project)<br>
-    - [Files](#files)<br>
+    - [Repo files](#repo-files)<br>
     - [Highlights and learnings](#highlights-and-learnings)<br>
 - [Running Project](#running-project)<br>
     - [Requirements](#requirements)<br>
@@ -19,7 +19,7 @@ Date: Apr 15, 2023
 #### About the project
 This project is based on a **<a href="https://www.kaggle.com/c/forest-cover-type-prediction" target="_blank">Kaggle competition</a>**, to predict 7 forest cover types from cartograpgic variables, including numeric, binary, and categorical variables. The data set includes 15,120 observations and 54 features/columns. 
 
-#### Files
+#### Repo Files
 - `Phil_Kai_EDAv5_added_comments.ipynb`: This is the final jupyter notebook
 - `forestcover.csv`: The forest cover-type dataset. 
 - `Final Presentation.pdf` : PDF version of final presentation for highlights and key findings.
