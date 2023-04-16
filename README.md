@@ -1,6 +1,6 @@
 # Forest Cover Type Classification With Random Forest and Neural Network
-### By Phil Gagnon, Kai Ding\
-Date: Apr 15, 2023
+### By Phil Gagnon, Kai Ding
+### Date: Apr 15, 2023
 ----
 
 ### Table Of Contents:
