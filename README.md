@@ -6,29 +6,29 @@ Date: Apr 15, 2023
 ### Table Of Contents:
 - [Description](#description)<br>
     - [About the project](#about-the-project)<br>
-    - [Data files](#data-files)<br>
+    - [Files](#files)<br>
+    - [Highlights and learnings](#highlights-and-learnings)<br>
 - [Running Project](#running-project)<br>
     - [Requirements](#requirements)<br>
     - [Execution](#execution)<br>
-- [Highlights](#lhighlight)<br>
-    - [Requirements](#requirements)<br>
-    - [Execution](#execution)<br>
-- [Conclusion](#conclusion)<br>
-    - [What I learned](#what-i-learned)<br>
-    - [Evaluation](#evaluation)
-    - [Results](#results)
 
 ----
 
 ### Description
 
 #### About the project
-This project is based on a popular Kaggle competition, to predict 7 forest cover types from cartograpgic variables. The data set includes 15,120 observations and 54 features/columns.
+This project is based on a **<a href="https://www.kaggle.com/c/forest-cover-type-prediction" target="_blank">Kaggle competition</a>**, to predict 7 forest cover types from cartograpgic variables, including numeric, binary, and categorical variables. The data set includes 15,120 observations and 54 features/columns. 
 
-#### Data Files
+#### Files
 - `Phil_Kai_EDAv5_added_comments.ipynb`: This is the final jupyter notebook
 - `forestcover.csv`: The forest cover-type dataset. 
 - `Final Presentation.pdf` : PDF version of final presentation for highlights and key findings.
+
+#### Highlights
+- Feature Engineering: Created 8 new features, 5 of which ranked in Top 10 important features by MI score
+- Model Performance: Neural Network achieved Training/Test accuracy of 78%/77% respectively; Random Forest
+acheived Training/Test accuracy of 86%/81%.
+- Classification by Cover Type: Type 4 and 7 are easier to predict, while most misclassifications happened between Type 1/2/5 and Type 3/6.
 
 ----
 
@@ -63,23 +63,3 @@ jupyter lab
 ```
 
 -----
-
-### Conclusion
-
-#### What I learned
-- How to research and investigate a real-world problem of interest.
-- How to accurately apply specific machine learning algorithms and techniques.
-- How to properly analyze and visualize your data and results for validity.
-- How to document and write a report of your work.
-
-#### Evaluation
-My `Proposal` was reviewed by an Udacity reviewer against the **<a href="https://review.udacity.com/#!/rubrics/410/view" target="_blank">Capstone Proposal rubric</a>**. All criteria found in the rubric must be *meeting specifications* for me to pass.
-
-My `Project` was reviewed by an Udacity reviewer against the **<a href="https://review.udacity.com/#!/rubrics/108/view" target="_blank">Capstone Project Rubric</a>**. All criteria found in the rubric must be *meeting specifications* for me to pass.
-
-#### Results
-[My Proposal Review by an Udacity Reviewer](https://review.udacity.com/#!/reviews/1419617)
-
-[My Project Review by an Udacity Reviewer](https://review.udacity.com/#!/reviews/1435956)
-
-----
